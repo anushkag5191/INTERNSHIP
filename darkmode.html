@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darkmode</title>
+    <style>
+        body{
+            background-color:white;
+        }
+        button{
+            color:black;
+            border: solid rgb(191, 141, 13);
+            font-size: 30px;
+            text-align: center;
+            margin-left:600px;
+            margin-top: 300px;
+            box-shadow: 2px  2px 5px rgba(0, 0, 0, 0.5);
+        }
+        button:hover{
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <button>change the mode</button>;
+    <script>
+        let btn=document.querySelector("button");
+        let mode="light";
+        btn.addEventListener("click",change);
+        function change()
+        {
+            if(mode=="light")
+            {
+                mode="dark";
+                document.querySelector("body").style.backgroundColor="black";
+            }
+            else
+            {
+                mode="light";
+                document.querySelector("body").style.backgroundColor="white";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(17, 17, 79)
+}
+
+.container {
+    background-color: aliceblue;
+    width: 700px;
+    height: 350px;
+    margin: 100px 0px 0px 400px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+h2 {
+    padding: 15px;
+    font-size: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 25px;
+    padding: 2px
+}
+
+button {
+    margin: 0px 0px 0px 300px;
+    font-size: 22px;
+    background-color: rgb(17, 17, 79);
+    color: white;
+}
+
+@media only screen and (max-width:768px) {
+    .container {
+        margin: 50px 20px;
+    }
+
+    button {
+        margin-left: 40%;
+    }
+}

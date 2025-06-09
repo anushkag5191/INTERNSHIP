@@ -1,52 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Clock</title>
     <style>
-        body{
+        body {
             background-color: darkcyan;
             text-align: center;
             padding-top: 210px;
-            font-size:70px;
-            color: white;  
+            font-size: 70px;
+            color: white;
         }
+
         #demo {
-            display:inline-block;       
-            padding: 20px 40px;         
-            border: 4px solid white;     
-            border-radius: 15px;         
+            display: inline-block;
+            padding: 20px 40px;
+            border: 4px solid white;
+            border-radius: 15px;
             background-color: rgba(255 255 255 0.3);
             box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
         }
     </style>
 </head>
+
 <body>
     <p id="demo"></p>
     <script>
-        function clock(){
-        const now=new Date();
-        let hour=now.getHours();
-        let min=now.getMinutes();
-        let sec=now.getSeconds();
-        if(hour<10)
-        {
-            hour="0"+hour;
+        function clock() {
+            const now = new Date();
+            let hour = now.getHours();
+            let min = now.getMinutes();
+            let sec = now.getSeconds();
+            if (hour < 10) {
+                hour = "0" + hour;
+            }
+            if (min < 10) {
+                min = "0" + min;
+            }
+            if (sec < 10) {
+                sec = "0" + sec;
+            }
+            let time = `${hour}:${min}:${sec}`;
+            document.getElementById('demo').innerHTML = time;
         }
-         if(min<10)
-        {
-            min="0"+min;
-        }
-          if(sec<10)
-        {
-            sec="0"+sec;
-        }
-        let time=`${hour}:${min}:${sec}`;
-        document.getElementById('demo').innerHTML=time;
-        }
-        setInterval(clock,1000);
+        setInterval(clock, 1000);
         clock();
     </script>
 </body>
+
 </html>

@@ -15,3 +15,5 @@ As a Web Developer Intern, I built a variety of interactive and responsive web a
 ❓ Quiz App – A timed, multiple-choice quiz with score tracking and result display.
 
 🏢 Company Website – A multi-page responsive website for a fictional company with modern layout and smooth navigation.
+
+🌐 Portfolio Website – A personal portfolio showcasing my projects, skills, and contact details, designed with clean navigation and responsive layout.

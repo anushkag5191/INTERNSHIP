@@ -1,19 +1,22 @@
-# Web Development(internship)
-As a Web Developer Intern, I built a variety of interactive and responsive web applications using HTML, CSS, and JavaScript. These projects helped me gain practical experience in DOM manipulation, API integration, event handling, and UI/UX design.
+#🧮 Calculator
+The Calculator is a basic arithmetic web application that performs standard mathematical operations such as addition, subtraction, multiplication, and division. It is built using HTML, CSS, and JavaScript, with a responsive and intuitive interface.
 
-🔧 Projects Included:
-🌓 Dark/Light Mode Toggle – A theme switcher using local storage to remember user preference.
+🔢 Features:
+Input through buttons for numbers and operators
 
-⏰ Digital Clock – Real-time updating clock displaying current time with sleek UI.
+Performs addition, subtraction, multiplication, and division
 
-✅ To-Do List App – Add, mark as complete, and delete tasks with a clean interactive interface.
+Clear (AC) button to reset the display
 
-🧮 Calculator – Perform basic arithmetic operations with a responsive button layout.
+Displays real-time results on user interaction
 
-🎬 Movie Search App – Uses a movie database API to search and display movie info dynamically.
+Responsive layout for desktop and mobile screens
 
-❓ Quiz App – A timed, multiple-choice quiz with score tracking and result display.
+👨‍💻 Tech Stack:
+HTML – Builds the calculator layout (buttons, display)
 
-🏢 Company Website – A multi-page responsive website for a fictional company with modern layout and smooth navigation.
+CSS – Styles the calculator with grid/flexbox for a clean UI
 
-🌐 Portfolio Website – A personal portfolio showcasing my projects, skills, and contact details, designed with clean navigation and responsive layout.
+JavaScript – Handles input logic, calculations, and display updates
+
+This project strengthened my understanding of event listeners, string/number conversion, and handling user input flow in a web application.

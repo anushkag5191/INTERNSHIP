@@ -1,4 +1,4 @@
-#🧮 Calculator
+# 🧮 Calculator
 The Calculator is a basic arithmetic web application that performs standard mathematical operations such as addition, subtraction, multiplication, and division. It is built using HTML, CSS, and JavaScript, with a responsive and intuitive interface.
 
 🔢 Features:

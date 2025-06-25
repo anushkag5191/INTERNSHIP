@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+.container{
+    height:600px;
+    width: 400px;
+   background-color: gray;
+   margin:100px auto;
+   border-radius: 12px;
+   display:flex;
+   flex-direction: row;
+   gap:50px;
+   flex-wrap: wrap;
+}
+button{
+    font-size: 25px;
+    height: 70px;
+    width:70px;
+    margin:10px 10px 0px 10px;
+    border-radius: 10px;
+}
+.input{
+    margin:30px auto;
+    display: flex;
+    flex:1;
+    font-size: 45px;
+    justify-content: center;
+    box-shadow: none;
+    
+}

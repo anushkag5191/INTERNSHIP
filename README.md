@@ -1,4 +1,4 @@
-🏏 IPL Quiz Application
+# 🏏 IPL Quiz Application
 The IPL Quiz App is a cricket-themed web application designed to test users’ knowledge of the Indian Premier League (IPL). It features a set of multiple-choice questions covering teams, players, records, and IPL history. Built using HTML, CSS, and JavaScript, the quiz provides immediate feedback and keeps track of the user’s score throughout the session.
 
 🎯 Features:
